@@ -28,6 +28,11 @@ public class FelugroEmberNezet implements EmberNezet {
     }
 
     @Override
+    public String getKor() {
+        return JOptionPane.showInputDialog("Kor: ");
+    }
+
+    @Override
     public String getLakhely() {
         return JOptionPane.showInputDialog("Lakhely: ");
     }
