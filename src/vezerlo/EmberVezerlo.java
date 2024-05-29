@@ -5,13 +5,13 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import modell.EmberModell;
 import nezet.GuiNezet;
-import nezet.Nezet;
+import nezet.EmberNezet;
 
 public class EmberVezerlo {
-    private Nezet nezet;
+    private EmberNezet nezet;
     private EmberModell modell;
     
-    public EmberVezerlo(Nezet nezet, EmberModell modell) {
+    public EmberVezerlo(EmberNezet nezet, EmberModell modell) {
         this.nezet = nezet;
         this.modell = modell;
         
